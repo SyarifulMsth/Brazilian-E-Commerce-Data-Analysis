@@ -8,7 +8,7 @@ st.set_page_config(page_title='Brazillian E-Commerce Data Analysis',page_icon='.
 st.markdown("<h1 style='text-align: center;'>Brazillian E-Commerce <br>Data Analysis 🛒 </h1>", unsafe_allow_html=True)
 
 # read dataset
-all_df = pd.read_csv(".\dataset\/all_data.csv")
+all_df = pd.read_csv("./Dashboard/dataset/All_Data_Brazilian_ECommerce.csv")
 
 # Market Segmentation by Customers
 # Market Segmentation by Customers
