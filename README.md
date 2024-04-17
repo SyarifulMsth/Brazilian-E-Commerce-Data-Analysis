@@ -30,7 +30,30 @@ Berdasarkan rumusan masalah (*problems statement*) yang telah dirumuskan sebelum
 Berdasarkan *problem statements* dan *goals* yang telah disebutkan sebelumnya, maka berikut adalah *solution statements* pada proyek ini :
 1. Melakukan tahapan *data wrangling* yang meliputi *gathering data*, *data assesing*, dam *data cleansing*.
 2. Melakukan Exploratory Data Analysis untuk mendapatkan *insight* yang berguna dari data.
- 
+
+## Project Preparation 
+1. **Dataset** 
+This project uses [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+2. **Tech Stack** 	
+	 - **Programming Languages** : Python
+	- **AI/ML** : pandas, numpy, seaborn, matplotlib
+	- **Other** : Git, Visual Studio Code
+
+3. **Setup Environment** 
+	```
+	conda create --name brazilian-e-commerce-project python=3.8
+	conda activate brazilian-e-commerce-project
+	pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+	```
+4. **Run steamlit app**
+	```
+	cd Dahboard
+	streamlit run Dashboard.py
+	```
+
+5. **Streamlit Cloud**
+Dashboard : [Streamlit E-Commerce Data Analysis Project:rocket:](https://brazillian-e-commerce-data-analysis.streamlit.app/) 
 
 ## 📚 Data Understanding 
 Pada project ini *dataset* yang digunakan adalah [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) yang terdiri dari 9 tabel data, di antaranya yaitu :
