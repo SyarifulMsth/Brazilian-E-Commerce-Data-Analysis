@@ -52,8 +52,7 @@ This project uses [Brazilian E-Commerce Public Dataset by Olist](https://www.kag
 	streamlit run Dashboard.py
 	```
 
-5. **Streamlit Cloud**
-Dashboard : [Streamlit E-Commerce Data Analysis Project:rocket:](https://brazillian-e-commerce-data-analysis.streamlit.app/) 
+5. **Streamlit Cloud Dashboard** : [Streamlit E-Commerce Data Analysis Project:rocket:](https://brazillian-e-commerce-data-analysis.streamlit.app/) 
 
 ## 📚 Data Understanding 
 Pada project ini *dataset* yang digunakan adalah [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) yang terdiri dari 9 tabel data, di antaranya yaitu :
