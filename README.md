@@ -81,37 +81,40 @@ Pada project ini *dataset* yang digunakan adalah [Brazilian E-Commerce Public Da
 3. **Feature Engineering**
 <br> *Feature Engineering* merupakan sebuah proses untuk mengembangkan dan memilih suatu fitur atau atribut (features) yang akan digunakan untuk melakukan analisis data.
 
-### Visualization & Analysis 
-
-<p align='center'><img src ="https://github.com/SyarifulMsth/Spotify-Music-Recommendation-System-/blob/main/images/artist.png?raw=true"  width="500"></p>
-<p align='center'>Gambar 1. Top 10 Artist dengan Popularity Tertinggi</p> Berdasarkan visualisasi grafik pada gambar 1 di atas menunjukkan 10 Artist dengan *popularity* tertinggi di dataset. 
- 
-<p align='center'><img src ="https://github.com/SyarifulMsth/Spotify-Music-Recommendation-System-/blob/main/images/years.png?raw=true"  width="500"></p>
-<p align='center'>Gambar 2. Jumlah Lagu atau Musik Berdasarkan Tahun</p> Berdasarkan visualisasi pada gambar 2 di atas, ditunjukkan jumlah lagu untuk setiap tahunnya yang ada di dataset.
-
-<p align='center'><img src ="https://github.com/SyarifulMsth/Spotify-Music-Recommendation-System-/blob/main/images/genres.png?raw=true"  width="500"></p>
-<p align='center'>Gambar 3. Jumlah Lagu atau Musik Berdasarkan Genre</p> Berdasarkan visualisasi pada gambar 3 di atas, ditunjukkan jumlah lagu berdasarkan genre yang ada di dataset.
-
-
 ## Conclusion
 
 ### Segmentasi pelanggan berdasarkan wilayah
+<p align='center'><img src ="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/customers%20market%20segmentation.png?raw=true"  width="500"></p>
+<p align='center'>Gambar 1. Customers market segmentation</p>
+
 Dari hasil analisis data, terlihat bahwa **Sao Paulo** memiliki jumlah pelanggan terbesar, diikuti oleh **Rio De Janeiro** dan **Belo Horizonte** berdasarkan kota tempat tinggal pelanggan. Sementara itu, jika kita melihat berdasarkan negara bagian (State), pelanggan terbanyak ada di **SP** (Sao Paulo), **RJ** (Rio de Janeiro), dan **MG**(Minas Gerais).
 
 Informasi ini dapat memberikan wawasan berharga kepada para pemangku kepentingan (*stakeholder*) dalam proses pengambilan keputusan. Dengan melihat tingginya jumlah pelanggan di Sao Paulo, Rio de Janeiro, dan Belo Horizonte, stakeholder dapat menyadari bahwa wilayah-wilayah ini memiliki potensi besar untuk pengembangan bisnis atau peningkatan pelayanan. Hal ini bisa mencakup upaya seperti meningkatkan strategi promosi, pemasaran yang lebih intensif, atau menyediakan layanan khusus guna mengakomodasi permintaan yang signifikan di wilayah tersebut.
 
 ### Segmentasi penjual berdasarkan wilayah
+<p align='center'><img src ="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/sellers%20market%20segmentation.png?raw=true"  width="500"></p>
+<p align='center'>Gambar 2. Sellers market segmentation</p>
+
 Dari hasil  analisis data, terlihat bahwa **Sao Paulo** memiliki jumlah penjual terbesar, diikuti oleh **Curitiba** dan **Rio De Janeiro** berdasarkan kota tempat tinggal penjual. Sementara itu, jika kita melihat berdasarkan negara bagian (State), penjual terbanyak ada di **SP** (Sao Paulo), **PR** (Paraná), dan **MG**(Minas Gerais).
 
 ### Performa atau kinerja berdasarkan status pesanan dari pelanggan
+<p align='center'><img src ="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/performance.png?raw=true"  width="500"></p>
+<p align='center'>Gambar 3. Order status performance</p>
+
 Berdasarkan analisis data, diperoleh beberapa *insights* terkait performa atau kinerja berdasarkan status pesanan dari pelanggan, yaitu sebanyak **96478** tercatat dalam status ***delivered***, **1107** dalam status ***shipped***, **625** dalam status ***canceled***, dan seterusnya. Hal tersebut dapat diartikan bahwa performa atau kinerja status pesanan dari pelanggan tergolong dalam kategori baik.
 
 ### Tren metode pembayaran
+<p align='center'><img src ="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/payments.png?raw=true"  width="500"></p>
+<p align='center'>Gambar 4. Payments type trend</p>
+
 Berdasarkan analisis data, terdapat beberapa variasi dalam metode pembayaran yang digunakan oleh pelanggan, termasuk Boleto, Kartu Kredit, Kartu Debit, Voucher, dan metode "not_defined." Dari berbagai pilihan ini, metode pembayaran paling umum yang dipilih oleh pelanggan adalah **Kartu Kredit (*Credit Card*)**, dan rata-rata nilai pembayaran yang dilakukan dengan metode ini lebih tinggi dibandingkan dengan metode pembayaran lainnya.
 
 Informasi ini dapat menjadi dasar bagi pihak yang berkepentingan (*stakeholder*) untuk mengambil keputusan, seperti memberikan promosi atau diskon kepada pelanggan yang menggunakan Kartu Kredit sebagai metode pembayaran.
 
 ### Tingkat kepuasan pelanggan
+<p align='center'><img src ="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/score.png?raw=true"  width="500"></p>
+<p align='center'>Gambar 5. Tingkat kepuasan pelanggan</p>
+
 Berdasarkan hasil analisis data dan *insights* yang telah diperoleh, diketahui bahwa:
 - 66343 pelanggan memberikan 5 bintang *review score*
 - 22319 pelanggan memberikan 4 bintang *review score*
@@ -122,6 +125,9 @@ Berdasarkan hasil analisis data dan *insights* yang telah diperoleh, diketahui b
 Dengan demikian, dapat disimpulkan bahwa sebagian besar pelanggan mengungkapkan kepuasan mereka dengan memberikan penilaian tinggi, terutama dengan pemberian 4 dan 5 bintang dalam *review score*.
 
 ### RFM Analysis
+<p align='center'><img src ="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/rfm.png?raw=true"  width="500"></p>
+<p align='center'>Gambar 5. Tingkat kepuasan pelanggan</p>
+
 Berdasarkan hasil RFM Analysis dan visualisasi data di atas, dapat diketahui beberapa pelanggan terbaik berdasarkan parameter *Recency*, *Frequency* dan *Monetary*.
 
 ## 🔗 Links
