@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from babel.numbers import format_currency
 
-st.set_page_config(page_title='Brazillian E-Commerce Data Analysis',page_icon='./icons/icons.png')
+st.set_page_config(page_title='Brazillian E-Commerce Data Analysis',page_icon='./Dashboard/icons/icons.png')
 st.markdown("<h1 style='text-align: center;'>Brazillian E-Commerce <br>Data Analysis 🛒 </h1>", unsafe_allow_html=True)
 
 # read dataset
