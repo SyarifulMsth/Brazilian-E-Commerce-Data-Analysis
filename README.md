@@ -1,4 +1,4 @@
-# Brazillian E-Commerce Data Analysis
+# Brazilian E-Commerce Data Analysis
 
 <p align='center'><img src="https://github.com/SyarifulMsth/Brazillian-E-Commerce-Data-Analysis/blob/main/image/background.jpg?raw=true"  width="1000"></p>
  
